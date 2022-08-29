@@ -1,0 +1,107 @@
+:root{
+
+    /* Color styles */
+    --primary: #195550;
+    --secondary : #FAC585;
+    --secondary-lite:#f4b465;
+    --core---warning: #FAD03E;
+    --core---error: #D0220A;
+    --body-color: #031B4E;
+    --plain-black : #000000;
+    --background: #191919;
+    --core---success: #05944F;
+    --core---secondary--body-color: #757575;
+    --core---success: #276EF1;
+    --gray900: #141414;
+    --gray800: #1F1F1F;
+    --gray700: #333333;
+    --gray600: #757575;
+    --gray500: #757575;
+    --gray400: #AFAFAF;
+    --gray300: #CBCBCB;
+    --gray200: #E2E2E2;
+    --gray100: #EEEEEE;
+    --gray150:#F4F5F7;
+    --gray50: #F6F6F6;
+    --gray50: #F6F6F6;
+    --blue700: #102C60;
+    --blue600: #174291;
+    --blue500: #1E54B7;
+    --blue400: #276EF1;
+    --blue300: #5B91F5;
+    --blue200: #A0BFF8;
+    --blue100: #D4E2FC;
+    --blue50: #EFF3FE;
+    --blue-light:#E4F3F5;
+    --red7000: #5A0A00;
+    --red600: #870F00;
+    --red500: #AB1300;
+    --red400: #E11900;
+    --red300: #E85C4A;
+    --red200: #F1998E;
+    --red100: #FED7D2;
+    --red50: #FFEFED;
+    --green700: #10462D;
+    --green600: #03582F;
+    --green500: #03703C;
+    --green400: #05944F;
+    --green300: #06C167;
+    --green200: #66D19E;
+    --green100: #ADDEC9;
+    --green50: #E6F2ED;
+    --gray750: #272B30;
+    }
+    
+    *{
+        color: var(--gray50);
+    }
+    .background-color{
+        color: var(--background);
+    }
+    .white{
+        color:  #ffffff;
+    }
+    .gray200{
+        color:var(--gray200);
+    }
+    .gray50{
+        color:var(--gray50);
+    }
+    .gray200{
+        color:var(--gray200);
+    }
+    .gray200{
+        color:var(--gray200);
+    }
+    .gray300{
+        color:var(--gray300);
+    }
+    .gray700{
+        color:var(--gray700);
+    }
+    .gray600{
+        color:var(--gray600);
+    }
+    .gray500{
+        color:var(--gray500);
+    }
+    .primary-color{
+        color: var(--primary);
+    }
+    .secondary-color{
+        color: var(--secondary);
+    }
+    .bg-color-secondary-lite{
+        background-color: var(--secondary-lite);
+    }
+    .bg-color-primary{
+        background-color: var(--primary);
+    }
+    .red400{
+        color: var(--red400);
+    }
+    .primary-dark-color{
+        color: #1039A3;
+    }
+    
+    

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@font-face {
+    font-family: hatton;
+    font-weight: 500;
+    src: url(./Hatton/Hatton-Medium.otf);
+  }
+@font-face {
+    font-family: hatton;
+    font-weight: 600;
+    src: url(./Hatton/Hatton-Semibold.otf);
+  }
