@@ -2,13 +2,13 @@
 
     /* Color styles */
     --primary: #195550;
-    --secondary : #FAC585;
+    --secondary : #f4b465;
     --secondary-lite:#f4b465;
     --core---warning: #FAD03E;
     --core---error: #D0220A;
     --body-color: #031B4E;
     --plain-black : #000000;
-    --background: #191919;
+    --background: #f8f8f8;
     --core---success: #05944F;
     --core---secondary--body-color: #757575;
     --core---success: #276EF1;
@@ -52,9 +52,7 @@
     --gray750: #272B30;
     }
     
-    *{
-        color: var(--gray50);
-    }
+  
     .background-color{
         color: var(--background);
     }
@@ -96,6 +94,15 @@
     }
     .bg-color-primary{
         background-color: var(--primary);
+    }
+    .bg-color-gray200{
+        background-color: var(--gray200);
+    }
+    .bg-color-gray300{
+        background-color: var(--gray300);
+    }
+    .bg-color-gray400{
+        background-color: var(--gray400);
     }
     .red400{
         color: var(--red400);

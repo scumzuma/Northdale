@@ -65,9 +65,10 @@ a{
 }
 .align-items-flex-start {
     align-items: flex-start;
-    
 }
-
+.flex-direction-column-reverse{
+    flex-direction: column-reverse;
+}
 .flex-center {
     display: flex;
     justify-content: center;
@@ -78,7 +79,6 @@ a{
 }
 .container {
     width: 100%;
-    margin-bottom: 100px;
     padding: 0 100px;
 }
 .fit-con{
@@ -151,8 +151,8 @@ line-height: 22px;
 }
 .body-normal{
     font-weight: 500;
-font-size: 20px;
-line-height: 26px;
+font-size: 1rem;
+line-height: 1.4rem;
 }
 .button {
     padding: .5rem .8rem;

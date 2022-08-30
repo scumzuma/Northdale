@@ -9,7 +9,7 @@ body{
     height: 80px;
     position: fixed;
     z-index: 10;
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: var(--primary);
 }
 .nav-bar .logo{
     font-size: 1.2rem;
@@ -57,12 +57,12 @@ body{
 }
 .enquire-form{
     padding: 2rem 1rem;
+    width: 350px;
     border-radius:5px ;
     gap:2rem;
     background-color: var(--primary);
 }
 .enquire-form form{
-    
     gap: 1.5rem;
 }
 .form-field label{
@@ -74,7 +74,8 @@ body{
     height: 45px;
     font-size: 1rem;
     border-radius: 5px;
-    width: 280px;
+    width: 100%;
+    min-width: 280px;
     padding: 0 1rem;
      color: var(--gray700);
      font-family: 'Poppins';
@@ -88,15 +89,29 @@ body{
     bottom: 0;
     z-index: 1;
     width: 100%;
-    height:50%;
+    height:100%;
     position: absolute;
 
-background: linear-gradient(0deg, rgb(25, 25, 25) 0%, rgba(25, 25, 25, 0) 90.71%);
+background: rgba(25, 25, 25, .5);
 }
 .overview-wrapper{
     padding-top: 30px;
     padding-bottom:30px ;
 }
+.overview-wrapper .section-side{
+    width: 45%;
+}
+.overview-wrapper .banner-wrapper{
+    height: fit-content;
+    border: 5px solid var(--primary);
+}
+.overview-wrapper .banner-image{
+    position: relative;
+    width: 100%;
+    top: 2rem;
+    left: 2rem;
+}
+
 .overview-item-wrapper{
     width: 100%;
 }
@@ -133,16 +148,18 @@ background: linear-gradient(0deg, rgb(25, 25, 25) 0%, rgba(25, 25, 25, 0) 90.71%
  
     fill: var(--secondary);
 }
+.video-player video{
+    width: 350px;
+}
 .video-player{
     width: fit-content;
-
     position: relative;
 }
 .video-player:hover .controls-wrapper{
    opacity: 1;
 }
 .controls-wrapper{
-    opacity: 1;
+    opacity: 0;
     transition: 0.3s;
     cursor: pointer;
     position: absolute;
@@ -162,22 +179,25 @@ background: linear-gradient(0deg, rgb(25, 25, 25) 0%, rgba(25, 25, 25, 0) 90.71%
     fill: var(--secondary);
 }
 .ammenities-item-wrapper{
-    gap: 3rem;
+    gap: 2rem;
 }
-.ammenitie-item{
+.ammenitie-item,.specifiaction-item{
     padding: 1rem 2rem;
-    width: 180px;
-    height: 180px;
-    background: rgba(217, 217, 217, 0.1);
-    border-radius: 20px;
+    width: 230px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
     cursor: pointer;
 }
+.ammenitie-item{
+    flex-direction: row;
+}
 .ammenitie-item .icon img{
-  width: 48px;
+  width: 36px;
 }
 .specifiaction-item{
     width: 400px;
     height: auto;
+    flex-direction: column;
 }
 .specifiaction-item li{
     font-size: .9rem;
@@ -216,4 +236,76 @@ width: 100%;
     font-family: 'Poppins';
     list-style:square;
     margin-top: 5px;
+}
+.hightlight-slider{
+    width: 100%;
+}
+.highlight-slide{
+    position: relative;
+}
+.highlight-slide img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+}
+
+.highlight-slide .background-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.41);
+}
+.highlight-slide .info-wrapper{
+    position: absolute;
+    z-index: 5;
+    padding-top: 2rem;
+    width: 500px;
+    padding-left: 3rem;
+}
+.ammenities-slider .info-wrapper h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.ammenities-slider .info-wrapper{
+    width: 500px;
+    font-family: 'Poppins' !important;
+    padding: 1rem 2rem;
+    background-color: var(--primary);
+    color: var(--gray50);
+    opacity: 0.9;
+    bottom: 0;
+    position: absolute;
+}
+.dialog-overlay.active{
+    display: flex;
+}
+.dialog-overlay{
+    display: none;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    background-color: rgba(0, 0, 0, 0.54);
+    height: 100vh;
+    backdrop-filter:5;
+}
+.dialog-body{
+    min-width: 400px;
+}
+.contact-wrapper{
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.ammenitie-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ammenitie-slide {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
 }
