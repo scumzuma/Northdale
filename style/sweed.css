@@ -69,6 +69,9 @@ button{
 .align-items-flex-start {
     align-items: flex-start;
 }
+.align-items-flex-end {
+    align-items: flex-end;
+}
 .flex-direction-column-reverse{
     flex-direction: column-reverse;
 }
