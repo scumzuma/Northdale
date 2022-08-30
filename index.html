@@ -45,14 +45,14 @@
             <img src="/assests/images/icons/logo.svg" alt="">
         </div>
         <div class="nav-items-wrapper flex justify-content-center gap2">
-            <div class="nav-item">Overview</div>
-            <div class="nav-item">Highlights</div>
-            <div class="nav-item">Amenities</div>
-            <div class="nav-item">Specifications</div>
-            <div class="nav-item">Layout</div>
-            <div class="nav-item">Location</div>
-            <div class="nav-item">Contact us</div>
-            <div class="nav-item">Brochure</div>
+           <a link="#overview" disabled><div class="nav-item">Overview</div></a> 
+           <a link="#highlight" disabled=""><div class="nav-item">Highlights</div></a> 
+           <a link="#ammenitie" disabled><div class="nav-item">Ammenities</div></a> 
+           <a link="#specification"><div class="nav-item">Specification</div></a> 
+           <a link="#layout"><div class="nav-item">Layout</div></a> 
+           <a link="#location"><div class="nav-item">Location</div></a> 
+           <a link="#contactus"><div class="nav-item">Contact us</div></a> 
+           <a link="#brochure"><div class="nav-item">Bruchure</div></a> 
         </div>
     </nav>
     <div class="hero-section-wrapper">
@@ -96,7 +96,7 @@
         </div>
     </div>
 
-    <div class="overview-wrapper flex-center flex-gap2 flex-direction-column container bg-color-primary">
+    <div id="overview" class="overview-wrapper flex-center flex-gap2 flex-direction-column container bg-color-primary">
         <h2 class="hatton gray50">Overview</h2>
         <br>
         <div class="overview-item-wrapper flex justify-content-space-between align-items-center">
@@ -189,7 +189,6 @@
             </div>
         </div>
     </div>
-    <br><br>
 
     <div class="overview-wrapper  flex  flex-gap2 flex-direction-column container">
         <h2 class="hatton gray800">MIMS <font class="secondary-color">NORTHDALE</font>
@@ -216,8 +215,7 @@
             </div>
         </div>
     </div>
-    <br><br>
-    <div class="intro-wrapper flex  flex-gap2 flex-direction-column container">
+    <div  id="highlight" class="intro-wrapper flex  flex-gap2 flex-direction-column container">
         <h2 class="hatton">
             <font class="secondary-color">Highlights</font>
         </h2>
@@ -282,8 +280,7 @@
            
     
     </div>
-    <br><br><br>
-    <div class="intro-wrapper flex  flex-gap2 flex-direction-column container">
+    <div id="ammenitie" class="intro-wrapper flex  flex-gap2 flex-direction-column container">
         <h2 class="hatton">
             <font class="secondary-color">Ammenities</font>
         </h2>
@@ -414,7 +411,7 @@
          </div>
     </div>
     <br><br>
-    <div class="intro-wrapper flex  flex-gap2 flex-direction-column container">
+    <div id="specification" class="intro-wrapper flex  flex-gap2 flex-direction-column container">
         <h2 class="hatton">
             <font class="secondary-color">Specifications</font>
         </h2>
@@ -549,9 +546,9 @@
         </div>
         <br><br>
     </div>
-    <div class="plan-wrapper flex  flex-gap2 flex-direction-column container">
+    <div id="layout" class="plan-wrapper flex  flex-gap2 flex-direction-column container">
         <h2 class="hatton">
-            <font class="secondary-color">Price and Plans</font>
+            <font class="secondary-color">Layout and MasterPlan</font>
         </h2>
         <br><br>
         <div class="flex justify-content-space-between">
@@ -563,7 +560,7 @@
                 <h3 class="hatton">
                     <font class="secondary-color">Master </font> Plan
                 </h3>
-                <p class="hatton">Each elegant villa comprises 3 floors, 4 bedrooms, and open floor plans for seamlessly
+                <p class="poppins gray800">Each elegant villa comprises 3 floors, 4 bedrooms, and open floor plans for seamlessly
                     flowing space.
                     Beautiful 4 BHK Villas in Bangalore as per Vastu, a well-maintained community with amenities and
                     facilities.
@@ -580,10 +577,10 @@
         </div>
     </div>
     <div class="intro-wrapper flex  flex-gap2 flex-direction-column container">
-        <h2 class="hatton">
+        <h3 class="hatton">
             <font class="secondary-color">Apartment Layout</font>
-        </h2>
-        <p class="hatton">Get your own 3 Storied Luxury Villa Now</p>
+        </h3>
+        <p class="poppins gray800">Get your own 3 Storied Luxury Villa Now</p>
         <br><br>
 
         <div class="layout-slider splide" id="slider1" role="group" aria-label="Splide Basic HTML Example">
@@ -629,11 +626,11 @@
             </div>
         </div>
     </div>
-    <div class="plan-wrapper flex  flex-gap2 flex-direction-column container">
+    <div  id="location" class="plan-wrapper flex  flex-gap2 flex-direction-column container">
         <h2 class="hatton">
             <font class="secondary-color">Location</font>
         </h2>
-        <p class="hatton">Northdale is located on norther side of the Banglore, on hennur main road.So you can reach
+        <p class="poppins gray800">Northdale is located on norther side of the Banglore, on hennur main road.So you can reach
             Schools , Malls, Tech Parks and many more places within minutes
         </p>
         <div class="button-wrapper">
@@ -730,26 +727,49 @@
         </div>
  
     </div>
-    <div class="contact-wrapper bg-color-gray200 flex  flex-gap2 flex-direction-column container">
+    <div id="contactus" class="contact-wrapper bg-color-gray200 flex  flex-gap2 flex-direction-column container">
  <div class="flex justify-content-space-between">
             <div class="section-side">
                 <h2 class="hatton">
-                    <font class="secondary-color">Get in Touch</font>
+                    Contact
+                    <font class="secondary-color">Us</font>
                 </h2>
-                <p class="poppins">Fill the Form and get Best Prices, Book a Visit and Download Brochure.</p>        
-                <p class="poppins h3">Get Assured</p>
-                <ul>
-                    <li class="flex ">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="32" width="32"><path d="M22 42v-3h17V23.8q0-2.9-1.25-5.575Q36.5 15.55 34.4 13.5t-4.8-3.275Q26.9 9 24 9q-2.9 0-5.6 1.225-2.7 1.225-4.8 3.275-2.1 2.05-3.35 4.725T9 23.8V36H8q-1.65 0-2.825-1.175Q4 33.65 4 32v-4q0-1.15.55-2.025T6 24.55l.15-2.65q.45-3.65 2.075-6.6 1.625-2.95 4.05-5t5.45-3.175Q20.75 6 24 6q3.3 0 6.325 1.125 3.025 1.125 5.425 3.2t4.025 5Q41.4 18.25 41.85 21.85l.15 2.6q.9.45 1.45 1.325.55.875.55 1.925v4.6q0 1.1-.55 1.95-.55.85-1.45 1.3V39q0 1.25-.875 2.125T39 42Zm-4-14.5q-.6 0-1.05-.45-.45-.45-.45-1.1 0-.6.45-1.025.45-.425 1.1-.425.6 0 1.025.425.425.425.425 1.075 0 .6-.425 1.05-.425.45-1.075.45Zm12 0q-.6 0-1.05-.45-.45-.45-.45-1.1 0-.6.45-1.025.45-.425 1.1-.425.6 0 1.025.425.425.425.425 1.075 0 .6-.425 1.05-.425.45-1.075.45Zm-17.95-2.6q-.2-2.95.825-5.35 1.025-2.4 2.75-4.075Q17.35 13.8 19.6 12.9q2.25-.9 4.5-.9 4.55 0 7.65 2.875 3.1 2.875 3.8 7.175-4.7-.05-8.275-2.525T21.75 13.1q-.8 4.05-3.375 7.175T12.05 24.9Z"/></svg>         
-                        <p class="poppins white">Callback</p>
+                <br>
+                <p class="poppins ">Fill the Form and get Best Prices, Book a Visit and Download Brochure.</p>        
+                <br> 
+                <p class="poppins h4 gray700 font-weight-500">Get Assured</p>
+                 <ul>
+                <li class="flex  justify-content-flex-start align-items-center flex-gap2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 20 20" height="36px" viewBox="0 0 20 20" width="36px" fill="#000000"><g><rect fill="none" height="20" width="20" x="0"/></g><g><g><path d="M10,6C9.32,6,6.12,6.51,6.01,9.88c1.72-0.4,3.06-1.77,3.4-3.51c0.53,1.15,1.96,2.8,4.43,2.6C13.39,7.26,11.85,6,10,6z"/><circle cx="7.5" cy="10.75" r=".75"/><circle cx="12.5" cy="10.75" r=".75"/><path d="M16,10c0-3.31-2.69-6-6-6s-6,2.69-6,6c-0.55,0-1,0.45-1,1v2c0,0.55,0.45,1,1,1h1v-4c0-2.76,2.24-5,5-5s5,2.24,5,5v5H9v1h6 c0.55,0,1-0.45,1-1v-1c0.55,0,1-0.45,1-1v-2C17,10.45,16.55,10,16,10z"/></g></g></svg>               
+                        <p class="poppins">Callback</p>
                     </li>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="32" width="32"><path d="m16 11.6-5.3-5.3 2.1-2.1 5.3 5.3Zm16 0-2.1-2.1 5.3-5.3 2.1 2.1ZM22.5 9V0h3v9Zm-15 39q-.65 0-1.075-.425Q6 47.15 6 46.5V30.3l4.25-12.8q.25-.7.825-1.1.575-.4 1.325-.4h23.2q.75 0 1.325.4t.825 1.1L42 30.3v16.2q0 .65-.425 1.075Q41.15 48 40.5 48h-1.05q-.65 0-1.05-.425T38 46.5v-2.7H10v2.7q0 .65-.425 1.075Q9.15 48 8.5 48Zm2.65-20.7h27.7L35.1 19H12.9ZM9 40.8V30.3v10.5Zm5.3-2.5q1.15 0 1.925-.8.775-.8.775-1.9 0-1.15-.775-1.975-.775-.825-1.925-.825t-1.975.825q-.825.825-.825 1.975 0 1.15.825 1.925.825.775 1.975.775Zm19.45 0q1.15 0 1.975-.8.825-.8.825-1.9 0-1.15-.825-1.975-.825-.825-1.975-.825-1.15 0-1.925.825-.775.825-.775 1.975 0 1.15.8 1.925.8.775 1.9.775ZM9 40.8h30V30.3H9Z"/></svg>                        <p>Free Site Visit</p>
-                    </li>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="32" width="32"><path d="M15.45 16.95q.6 0 1.05-.45.45-.45.45-1.05 0-.6-.45-1.05-.45-.45-1.05-.45-.6 0-1.05.45-.45.45-.45 1.05 0 .6.45 1.05.45.45 1.05.45Zm0 8.55q.6 0 1.05-.45.45-.45.45-1.05 0-.6-.45-1.05-.45-.45-1.05-.45-.6 0-1.05.45-.45.45-.45 1.05 0 .6.45 1.05.45.45 1.05.45Zm0 8.55q.6 0 1.05-.45.45-.45.45-1.05 0-.6-.45-1.05-.45-.45-1.05-.45-.6 0-1.05.45-.45.45-.45 1.05 0 .6.45 1.05.45.45 1.05.45ZM9 42q-1.2 0-2.1-.9Q6 40.2 6 39V9q0-1.2.9-2.1Q7.8 6 9 6h23.1l9.9 9.9V39q0 1.2-.9 2.1-.9.9-2.1.9Zm0-3h30V17.55h-8.55V9H9v30ZM9 9v8.55V9v30V9Z"/></svg>                        <p>Download Brochure</p>
+                    <li  class="flex justify-content-flex-start align-items-center flex-gap2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.92 5.01C18.72 4.42 18.16 4 17.5 4h-11c-.66 0-1.21.42-1.42 1.01L3 11v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 6h10.29l1.04 3H5.81l1.04-3zM19 16H5v-4.66l.12-.34h13.77l.11.34V16z"/><circle cx="7.5" cy="13.5" r="1.5"/><circle cx="16.5" cy="13.5" r="1.5"/></svg>                        <p class="poppins">Free Site Visit</p>
+                    </li>    
+                    <li  class="flex justify-content-flex-start align-items-center flex-gap2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M8 16h8v2H8zm0-4h8v2H8zm6-10H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>       
+                        <p class="poppins">Download brochure</p>
                     </li>
                 </ul>
+                <br><br>
+                <p class="poppins h4 gray700 font-weight-500 primary-color">Get us here</p>
+               <br>
+                <ul>
+               <li class="flex  justify-content-flex-start align-items-center flex-gap2 ">
+                   <a href="tel:9784205657" class="flex flex-gap">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
+                      <p class="poppins">+91 9784205657</p>
+                   </a>
+                </li>
+                   <li  class="flex justify-content-flex-start align-items-center flex-gap2 ">
+                    <a href="mailto:patidarchandresh2002@gmail.com" class="flex flex-gap">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    <p class="poppins">patidarchandresh2002@gmail.com</p>
+                    </a>
+                </li>    
+                 
+               </ul>
             </div>
             <div class="section-side">
                 <div class="enquire-form flex flex-direction-column gap align-items-center">
@@ -775,40 +795,134 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-content-space-around">
-        <div class="video-player-wrapper flex-center fill_con">
-            <div class="video-player flex-center">
-                <video src="./assests/video/Intro-video.mp4"></video>
-                <div class="controls-wrapper flex-center">
-                    <button class="play-button flex-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px"
-                            fill="#000000">
-                            <path
-                                d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18c.62-.39.62-1.29 0-1.69L9.54 5.98C8.87 5.55 8 6.03 8 6.82z" />
-                        </svg>
-                    </button>
+    <div class="plan-wrapper flex  flex-gap2 flex-direction-column container">
+        <h2 class="hatton">
+            Virtual 
+            <font class="secondary-color">Tour</font>
+        </h2>
+        <p class="poppins">Experience the Dream House from anywhere .</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3VSL7g4digY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+    </div>
+    <div class="container flex">
+        <img src="/assests/images/icons/ad-banner.jpg" class="fit-con">
+    </div>
+    <div class="container gallary section">
+        <h2 class="hatton">
+            Gallery 
+        </h2>        
+        <div  id="slider2" class="splide gallery-slider" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="highlight-slide">
+                          <img src="./assests/images/around-banner.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="highlight-slide">
+                          <img src="./assests/images/banner-2.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="highlight-slide">
+                            <img src="./assests/images/private-garden-banner.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="highlight-slide">
+                         <img src="./assests/images/50-percent-space-banner.jpg" alt="">
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="highlight-slide">
+                           <img src="./assests/images/50-percent-space-banner.jpg" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+           <div class="splide__arrows"></div>
+         </div>
+    </div>  <div class="overview-wrapper  flex  flex-gap2 flex-direction-column container">
+        <h2 class="hatton gray800">About <font class="secondary-color">MIMS Builder</font>
+        </h2>
+        <div class="flex justify-content-space-between">
+            <div class="section-side">
+                <p class="poppins gray700 body-normal">Enriched with over 2 decades of experience, we are one of the leading builders in the city of Bengaluru. Several of the finest buildings in some of the best locations bear our stamp. Apart from innovative designs and supreme quality, on-time delivery has always been part of our strengths.
+                    <br><br>
+                    The product range that we offer comprises luxury and super luxury apartments, elegant villas and large format boutique living spaces. While we build concrete structures, what we present to discerning
+                    
+                </p>
+                <br><br>
+                <div class="button-wrapper">
+                    <button class="bg-color-primary button poppins primary_button ">Download Brochure</button>
                 </div>
             </div>
-        </div>
-        <div class="video-player-wrapper intro-video flex-center fill_con">
-            <div class="video-player flex-center">
-                <video src="./assests/video/Intro-video.mp4"></video>
-                <div class="controls-wrapper flex-center">
-                    <button class="play-button flex-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 0 24 24" width="32px"
-                            fill="#000000">
-                            <path
-                                d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18c.62-.39.62-1.29 0-1.69L9.54 5.98C8.87 5.55 8 6.03 8 6.82z" />
-                        </svg>
-                    </button>
-                </div>
+            <div class="section-side  banner-wrapper">
+                <img class="banner-image" src="./assests/images/banner-2.jpg" alt="">
             </div>
         </div>
     </div>
+   <footer class="container flex justify-content-space-between">
+       <div>
+        <h3 class="gray50 poppins">Address</h3>
+        <br>
+        <p class="poppins gray50">
+           MIMS BUILDERS PVT. LTD<br>
+            Corporate Office :#99,
+            <br> Infantry Road,
+             Shivajinagar,<br>
+                Bengaluru 560001<br>
+                Karnataka, INDIA.
+        </p>
+        <br>
+        <ul class="flex-gap2 flex flex-direction-column">
+            <li class="flex gray50 justify-content-flex-start align-items-center flex-gap2 ">
+                <a href="tel:9784205657" class="flex flex-gap">
+                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#f5f5f5"><path d="M0 0h24v24H0z" fill="none"/><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/></svg>
+                   <p class="poppins">+91 9784205657</p>
+                </a>
+             </li>
+               <li  class="flex  gray50 justify-content-flex-start align-items-center flex-gap2 ">
+                 <a href="mailto:patidarchandresh2002@gmail.com" class="flex flex-gap">
 
-
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#f5f5f5"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                 <p class="poppins">patidarchandresh2002@gmail.com</p>
+                 </a>
+             </li>    
+              
+            </ul>
+       </div>
+       <div>
+        <h3 class="gray50 poppins">Pages </h3>
+        <br>
+        <div class="nav-items-wrapper flex-direction-column flex-gap1 flex justify-content-center gap2">
+            <a link="#overview" disabled><div class="nav-item">Overview</div></a> 
+            <a link="#highlight" disabled=""><div class="nav-item">Highlights</div></a> 
+            <a link="#ammenitie" disabled><div class="nav-item">Ammenities</div></a> 
+            <a link="#specification"><div class="nav-item">Specification</div></a> 
+            <a link="#layout"><div class="nav-item">Layout</div></a> 
+            <a link="#location"><div class="nav-item">Location</div></a> 
+            <a link="#contactus"><div class="nav-item">Contact us</div></a> 
+            <a link="#brochure"><div class="nav-item">Bruchure</div></a> 
+         </div>
+       </div>
+       <div>
+        <h3 class="gray50 poppins">Social Media </h3>
+        <br>
+        <div class="nav-items-wrapper flex-direction-column flex-gap1 flex justify-content-center gap2">
+            <a link="#overview" disabled><div class="nav-item">Facebook</div></a> 
+            <a link="#highlight" disabled=""><div class="nav-item">Instagram</div></a> 
+            <a link="#ammenitie" disabled><div class="nav-item">Youtube</div></a> 
+            <a link="#specification"><div class="nav-item">Twitter</div></a> 
+         </div>
+       </div>
+   </footer>
+   <div class="bg-color-secondary-lite container p-sm-none flex justify-content-flex-start">
+      <p class="poppins gray50">Copyright © 2022 | All Rights Reserved. | Privacy Policy</p>
+   </div>
 </body>
 <script src="/js/library/splide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.4.1/dist/js/splide-extension-grid.min.js"></script>
 <script type="module" src="./js/index.js"></script>
 
 </html>
