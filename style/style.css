@@ -333,4 +333,9 @@ footer .nav-item{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-p-sm-
+.fill-con-height{
+    height: 100%;
+}
+.virtual-tour-wrapper{
+    min-height: 280px;
+}
