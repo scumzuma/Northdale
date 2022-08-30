@@ -89,6 +89,9 @@
     .secondary-color{
         color: var(--secondary);
     }
+    .bg-color-secondary{
+        background-color: #db9641;
+    }
     .bg-color-secondary-lite{
         background-color: var(--secondary-lite);
     }
