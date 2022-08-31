@@ -155,7 +155,8 @@ function mobileNavBar(){
 }
 mobileNavBar();
 function playVideo(){
-  new VideoPlayer('.intro-video');
+  new VideoPlayer('.intro-video-2');
+  new VideoPlayer('.intro-video-3');
   new VideoPlayer('.ammenitie-video');
 }
 playVideo();/* 
