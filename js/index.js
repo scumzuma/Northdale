@@ -129,3 +129,15 @@ function imageDialog(){
     switchImgTo(--currentIndex)})
 }
 imageDialog();
+
+function mobileNavBar(){
+  const toggleButton  = document.getElementsByClassName('mobile-nav-toggle-button')[0];
+  const navBar  = document.getElementsByClassName('mobile-nav-bar')[0];
+  function toggleNavBar(){
+    navBar.classList.toggle('active');
+    toggleButton.classList.toggle('open');
+  }
+  toggleButton.addEventListener('click',toggleNavBar);
+
+}
+mobileNavBar();
