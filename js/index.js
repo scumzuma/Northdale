@@ -38,6 +38,10 @@ document.addEventListener( 'DOMContentLoaded', ()=>{
             perPage: 1,
             padding:'5rem'
           },
+          786: {
+            perPage: 1,
+            padding:'0  '
+          },
         }
     }).mount();
     const gallerySlider = document.getElementsByClassName('gallery-slider')[0];
@@ -62,20 +66,22 @@ function makingNavWork(){
 }
 makingNavWork();
 
-function toogleDialog(){
+function toogleDialog(buttonName){
   const dialogBox = document.getElementById('dialog-box');
+  const button = document.getElementById('dialog-form-button');
+  const head = document.getElementsByClassName('form-heading')[0];
+  button.setAttribute('value',buttonName);
+  head.innerHTML = buttonName;
   dialogBox.classList.toggle('active');
 }
 function makeToggleformwork(){
-const dialogclose = document.getElementsByClassName('close-dialog-button')[0];
 const dialogBox = document.getElementById('dialog-box');
-dialogclose.addEventListener('click',()=>{
-  dialogBox.classList.toggle('active');
-})
+
 const buttons = Array.from(document.getElementsByClassName('open-enquire-form'));
 buttons.forEach((ele)=>{
+  const buttonName = ele.getAttribute('data-button-name');
   ele.addEventListener('click',()=>{
-    toogleDialog();
+    toogleDialog(buttonName);
   })
 })
 }

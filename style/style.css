@@ -6,6 +6,7 @@ body{
  scroll-behavior: smooth;
 }
 *{
+    border: 1px solid red;
     scroll-behavior: smooth;
 }
 .nav-bar{
@@ -85,12 +86,13 @@ body{
     bottom: 10px;
     opacity: 1;
   }
+
 .hero-section{
     height: 100vh;
     padding-right: 100px;
     background-size: cover;
     position: relative;
-    padding-top:50px ;
+    padding-top:120px ;
     background-image: url(../assests/images/hero-section-image.jpg);
 }
 .enquire-form{
@@ -207,13 +209,12 @@ background: rgba(25, 25, 25, .5);
     overflow: hidden;
     width: 100vw;
     margin-top: 80px;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 .mobile-nav-bar .nav-item{
-    margin-left: 16px;
-    margin-right: 16px;
-    padding: 5px 0px 15px;
+    padding: 5px 0;
     margin-top:10px;
+    margin: 0;
     width: 100%;
     color: var(--gray800);
     border-bottom: 1px solid rgb(192, 194, 211) !important;
@@ -277,12 +278,14 @@ background: rgba(25, 25, 25, .5);
 }
 .ammenitie-item{
     flex-direction: row;
+    flex-grow: 4;   
 }
 .ammenitie-item .icon img{
   width: 36px;
 }
 .specifiaction-item{
-    width: 400px;
+    min-width: 400px;
+    flex-grow: 4; 
     height: auto;
     flex-direction: column;
 }
@@ -557,7 +560,8 @@ footer .nav-item{
     .plan-wrapper-con .section-side{
         width: 48%;
     }
-    .location-con iframe{
+    
+    .location-con .google-map{
         width: 100%;
     }
     .location-con{
@@ -579,9 +583,39 @@ footer .nav-item{
     .nav-bar-main{
         padding: .7rem 45px;  
     }
+    .ammenities-slider .info-wrapper{
+        width: 100%;
+        text-align: center;
+    }
+    .highlight-slide img{
+        height: 400px;
+    }
+    .ammenitie-slide{
+        margin: 0;
+    }
+    .overview-item label{
+        font-size: 1rem;
+     }
+     .overview-item-wrapper{
+         gap:2rem;
+         flex-wrap: wrap;
+     }
+     .overview-item .title{
+        font-size: 1.2rem;
+     }
+     .overview-item .icon{
+         width: 60px;
+         height: 60px;
+     }
+     .overview-item{
+        min-width: 45%;
+     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 786px) {
+    .highlight-slide img{
+        height: 300px;
+    }
     .nav-bar-main{
         display: none;
     }
@@ -608,6 +642,14 @@ footer .nav-item{
     .contact-con .enquire-form form{
        width: 100%;
     }
+    .ammenitie-item{
+        justify-content: flex-start;
+        min-height: 60px;
+    }
+    
+    .ammenities-item-wrapper{
+        gap: 1.2rem;
+    }
  
         .virtual-tour-wrapper {
             display: grid;
@@ -622,7 +664,21 @@ footer .nav-item{
             .virtual-tour-video:nth-child(3) { grid-area: 3 / 1 / 4 / 2;
              position:static;
             }
-    
+    .overview-item label{
+       font-size: .9rem;
+    }
+    .overview-item-wrapper{
+        flex-basis: 1;
+        gap:2rem;
+    }
+    .overview-item .title{
+       font-size: 1.3rem;
+    }
+    .overview-item .icon{
+        width: 50px;
+        height: 50px;
+
+    }
     
 }
 .mobile-nav-toggle-button.open button.open-button{
