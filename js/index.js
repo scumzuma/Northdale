@@ -29,6 +29,12 @@ document.addEventListener( 'DOMContentLoaded', ()=>{
         autoplay:true,
         perPage: 2,
         padding: '3rem',
+        breakpoints: {
+          900: {
+            perPage: 1,
+            padding:'5rem'
+          },
+        }
     }).mount();
     const gallerySlider = document.getElementsByClassName('gallery-slider')[0];
     new Splide( gallerySlider, {
@@ -39,9 +45,8 @@ document.addEventListener( 'DOMContentLoaded', ()=>{
     
     }).mount(window.splide.Extensions );
   
-    const video = new VideoPlayer('.intro-video');
 })
-
+/* 
 function makingNavWork(){
   const links = document.querySelectorAll('.nav-items-wrapper a');
   links.forEach((e)=>{
@@ -123,4 +128,4 @@ function imageDialog(){
     let currentIndex = currentImgSrcIndex();
     switchImgTo(--currentIndex)})
 }
-imageDialog();
+imageDialog(); */

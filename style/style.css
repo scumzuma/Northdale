@@ -15,6 +15,22 @@ body{
     z-index: 10;
     background-color: var(--primary);
 }
+.nav-bar-main{
+ position: fixed;
+ top: 80px;
+ z-index: 20; 
+ width: 100%;
+ padding: 1rem 100px;
+ background-color: var(--gray200);
+}
+.nav-bar-main .nav-item:hover{
+    color: var(--primary);
+}
+    .nav-bar-main .nav-item{
+
+    color: var(--gra800);
+    cursor: pointer;
+}
 .nav-bar .logo{
     font-size: 1.2rem;
     font-weight: 500;
@@ -53,9 +69,9 @@ body{
   }
 .hero-section{
     height: 100vh;
+    padding-right: 100px;
     background-size: cover;
     position: relative;
-    padding-bottom:50px;
     padding-top:50px ;
     background-image: url(../assests/images/hero-section-image.jpg);
 }
@@ -430,3 +446,60 @@ footer .nav-item{
  .next-image-dialog svg,.prev-image-dialog svg{
     fill: var(--gra700);
 }
+
+@media only screen and (max-width: 900px){
+    .hero-section{
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .hero-section-side{
+    width: 100%;
+    align-items: flex-start !important;
+    }
+    .hero-section-form{
+        display: none;
+    }
+    .hero-secction-ad-banner{
+        width: 80% !important;
+        height: auto !important;
+    }
+    .overview-section-side-wrapper{
+        flex-direction:column ;
+        gap: 3rem;
+    }
+    .overview-section-side-wrapper .section-side{
+        width: 100%;
+    }
+    .ammenitie-item{
+        width: 300px;
+    }
+    .specifiaction-item{
+        width: 45%;
+    }
+
+    .plan-wrapper-con .section-side{
+        width: 48%;
+    }
+    .location-con iframe{
+        width: 100%;
+    }
+    .location-con{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .location-con .section-side{
+         width: 100%;
+    }
+    .contact-wrapper .section-side .enquire-form{
+        width: auto;
+    }
+    .contact-wrapper .section-side{
+        width: 46%;
+    }
+    .banner-container{
+        padding: 1rem 0;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

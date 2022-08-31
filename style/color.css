@@ -95,6 +95,9 @@
     .bg-color-secondary-lite{
         background-color: var(--secondary-lite);
     }
+    .bg-color-gray50{
+        background-color: var(--gray50);
+    }
     .bg-color-primary{
         background-color: var(--primary);
     }
