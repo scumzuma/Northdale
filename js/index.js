@@ -59,7 +59,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{
 })
 
 function makingNavWork(){
-  const links = document.querySelectorAll('.nav-items-wrapper a');
+  const links = document.querySelectorAll('a[link]');
   links.forEach((e)=>{
     e.addEventListener('click',()=>{
       const linkName = e.getAttribute('link');
