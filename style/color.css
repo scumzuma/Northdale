@@ -2,6 +2,7 @@
 
     /* Color styles */
     --primary: #195550;
+    --primary-lite: #0a2d2a;
     --secondary : #f4b465;
     --secondary-lite:#f4b465;
     --core---warning: #FAD03E;
@@ -94,6 +95,9 @@
     }
     .bg-color-secondary-lite{
         background-color: var(--secondary-lite);
+    }
+    .bg-color-primary-lite{
+        background-color: var(--primary-lite);
     }
     .bg-color-gray50{
         background-color: var(--gray50);

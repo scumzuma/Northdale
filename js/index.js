@@ -6,6 +6,9 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
  */
 document.addEventListener( 'DOMContentLoaded', ()=>{
+   /*  setTimeout(() => {
+      toogleDialog('Enquire Now');
+    }, 10000); */
     const layoutSlider = document.getElementsByClassName('layout-slider')[0];
      new Splide( layoutSlider, {
         autoWidth: true,
