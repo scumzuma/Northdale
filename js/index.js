@@ -46,7 +46,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{
     }).mount(window.splide.Extensions );
   
 })
-/* 
+
 function makingNavWork(){
   const links = document.querySelectorAll('.nav-items-wrapper a');
   links.forEach((e)=>{
@@ -128,4 +128,4 @@ function imageDialog(){
     let currentIndex = currentImgSrcIndex();
     switchImgTo(--currentIndex)})
 }
-imageDialog(); */
+imageDialog();

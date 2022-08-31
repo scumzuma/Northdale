@@ -18,7 +18,7 @@ body{
 .nav-bar-main{
  position: fixed;
  top: 80px;
- z-index: 20; 
+ z-index: 10; 
  width: 100%;
  padding: 1rem 100px;
  background-color: var(--gray200);
@@ -401,7 +401,8 @@ footer .nav-item{
     display: none;
 }
 .image-dialog img{
-    width: 80%;
+    max-width: 80%;
+    width: auto;
     max-height: 80%;
     transform: scale(0.9);
     height: auto;
