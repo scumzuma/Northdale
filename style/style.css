@@ -23,6 +23,9 @@ body{
  padding: 1rem 100px;
  background-color: var(--gray200);
 }
+.pointer{
+    cursor: pointer;
+}
 .virtual-tour-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
