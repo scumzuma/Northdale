@@ -232,7 +232,7 @@ background: rgba(25, 25, 25, .5);
     position: fixed;
     bottom: 0;
     z-index: 10;
-
+    display: none;
 }
 .video-player video{
     width:100%;
@@ -590,6 +590,9 @@ footer .nav-item{
     }
     .mobile-nav-toggle-button{
         display: flex;
+    }
+    .bottom-bar-mobile{
+        display: inherit;
     }
     .plan-wrapper-con .section-side,.contact-con  .section-side{
         width: 100%;

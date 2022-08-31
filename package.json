@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/scumzuma/Northdale#readme",
   "dependencies": {
-    "@splidejs/splide": "^4.0.7",
-    "@splidejs/splide-extension-grid": "^0.4.1"
+    "gsap": "^3.11.0"
   }
 }
