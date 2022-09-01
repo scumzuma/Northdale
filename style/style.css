@@ -7,6 +7,8 @@ body{
 }
 *{
     scroll-behavior: smooth;
+    border: 1px solid red;
+    word-break: break-all;
 }
 .nav-bar{
     height: 80px;
@@ -529,6 +531,11 @@ footer .nav-item{
             position: relative;
         right: -5%; }
 
+        .container,.nav-bar-main{
+            padding: 0 60px;
+        }
+        
+
 }
 @media only screen and (max-width: 900px){
     .hero-section{
@@ -544,7 +551,7 @@ footer .nav-item{
         display: none;
     }
     .hero-secction-ad-banner{
-        width: 80% !important;
+        width: 100% !important;
         height: auto !important;
     }
     .overview-section-side-wrapper{
@@ -614,11 +621,43 @@ footer .nav-item{
      .overview-item{
         min-width: 45%;
      }
+     .footer-secondary{
+        padding-bottom: 80px !important;
+        flex-direction: column-reverse;
+    }
+    .specifiaction-item{
+        width: 100%;
+        min-width: 250px;
+    }
+    .overview-wrapper .banner-image{
+        top: 1rem;
+        left: 1rem;
+    }
+    h3{
+        font-size: 1rem !important;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 786px) {
+    .container{
+        padding: 0 20px;
+        padding-top: 30px;
+    }
+    .nav-bar{
+        padding-top: 0 !important;
+    }
     .highlight-slide img{
         height: 300px;
+    }
+    .highlight-slide .info-wrapper{
+        width: 100%;
+        padding: 10%;
+    }
+    .overview-item{
+        flex-grow: 1;
+    }
+    .hero-section{
+        min-height: 80%;
     }
     .nav-bar-main{
         display: none;
@@ -630,6 +669,7 @@ footer .nav-item{
         display: flex;
     }
     .bottom-bar-mobile{
+        height: ;
         display: inherit;
     }
     .plan-wrapper-con .section-side,.contact-con  .section-side{
@@ -648,7 +688,12 @@ footer .nav-item{
     }
     .ammenitie-item{
         justify-content: flex-start;
-        min-height: 60px;
+        min-height: 50px;
+        font-size: 1rem;
+        padding:  10px;
+    }
+    .ammenitie-slide {
+        height:300px;
     }
     
     .ammenities-item-wrapper{
@@ -687,6 +732,9 @@ footer .nav-item{
         justify-content: flex-start;
         flex-direction: column;
         gap: 3rem;
+    }
+    .form-field input{
+        min-width: 200px;
     }
     
 }

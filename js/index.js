@@ -37,6 +37,9 @@ document.addEventListener( 'DOMContentLoaded', ()=>{
         perPage: 2,
         padding: '3rem',
         breakpoints: {
+          1340: {
+            padding:'0'
+          },
           900: {
             perPage: 1,
             padding:'5rem'
@@ -157,6 +160,7 @@ mobileNavBar();
 function playVideo(){
   new VideoPlayer('.intro-video-2');
   new VideoPlayer('.intro-video-3');
+
   new VideoPlayer('.ammenitie-video');
 }
 playVideo();/* 
