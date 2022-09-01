@@ -694,7 +694,9 @@ footer .nav-item{
     .ammenitie-slide {
         height:300px;
     }
-    
+    .specifiaction-item{
+        padding: 1.5rem 2rem !important;
+    }
     .ammenities-item-wrapper{
         gap: 1.2rem;
     }
