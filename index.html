@@ -23,22 +23,22 @@
                         <h3 class="form-heading hatton secondary-color">Enquire Now</h3>
                         <img src="./assests/images/tagline.png" alt="">    
                     </div>
-                  <form action="" class="flex flex-direction-column">
+                  <form action="./sendMail.php" class="flex flex-direction-column">
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Name</label>
-                            <input type="text">
+                            <input name="fullname" required="required" type="text">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Phone</label>
-                            <input type="text">
+                            <input name="phoneNumber" type="tel">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Email</label>
-                            <input type="text">
+                            <input name="email" type="email">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Comment</label>
-                            <input type="text">
+                            <input name="comment" type="text">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <input type="submit" id="dialog-form-button" class="bg-color-secondary-lite white" value="Download Brochure">
