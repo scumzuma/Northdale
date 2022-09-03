@@ -30,18 +30,18 @@
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Phone</label>
-                            <input name="phoneNumber" type="tel">
+                            <input name="phoneNumber" required="required" type="tel">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Email</label>
-                            <input name="email" type="email">
+                            <input name="email" required="required" type="email">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Comment</label>
-                            <input name="comment" type="text">
+                            <input name="comment" required="required" type="text">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
-                            <input type="submit" id="dialog-form-button" class="bg-color-secondary-lite white" value="Download Brochure">
+                            <input type="submit"  id="dialog-form-button" class="bg-color-secondary-lite white" value="Download Brochure">
                         </div>
                     </form>
                 </div>
@@ -138,7 +138,7 @@
                 At MIMS Northdale Premium Villas.</h2>
 
                 <p class="poppins gray50">Villa in Hennur road | BENGALURU | Build by MIMS Builders </p>
-                <h2 class="hatton gray50">Starting at <font class="secondary-color">2.8 Cr</font>
+                <h2 class="hatton gray50">Starting at <font class="secondary-color">2.82 cr</font>
                 </h2> -->
                 <img class="fill_con hero-secction-ad-banner" style="height: 500px;" src="/assests/images/icons/ad-banner2.png" alt="">
             </div>
@@ -151,15 +151,19 @@
                   <form action="" class="flex flex-direction-column">
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Name</label>
-                            <input type="text">
+                            <input name="fullname" required="required" type="text">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Phone</label>
-                            <input type="text">
+                            <input name="phoneNumber" required="required" type="tel">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Email</label>
-                            <input type="text">
+                            <input name="email"  required="required" type="email">
+                        </div>
+                        <div class="form-field flex flex-direction-column gap">
+                            <label for="" class="poppins">Comment</label>
+                            <input  required="required" name="comment" type="text">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <input type="submit" class="bg-color-secondary-lite white" value="Enquire Now">
@@ -187,7 +191,7 @@
                         </g>
                     </svg>
                 </div>
-                <p class="poppins title">2.8 Cr onwards</p>
+                <p class="poppins title">2.82 cr onwards</p>
                 <label class="poppins">Price</label>
             </div> -->
             <div class="overview-item flex-center flex-gap1 c flex-direction-column">
@@ -258,7 +262,7 @@
                         </g>
                     </svg>
                 </div>
-                <p class="poppins title">Dec 2024</p>
+                <p class="poppins title">Oct 2024</p>
                 <label class="poppins">Possesion</label>
             </div>
         </div>
@@ -642,7 +646,7 @@
 
                     There are two Plans one with comes with mangnificent Private garden and one with small beautiful
                     garden.Starting with Offer
-                    Price of 2.8 Cr onwards.
+                    Price of 2.82 cr onwards.
                 </p>
                 <div class="button-wrapper">
                     <button class="bg-color-primary button poppins primary_button open-enquire-form " data-button-name="Downlaod Now">Download Brochure</button>
@@ -852,18 +856,22 @@
             <div class="section-side">
                 <div class="enquire-form flex flex-direction-column gap align-items-center">
                     <h3 class="hatton secondary-color">Enquire Now</h3>
-                    <form action="" class="flex flex-direction-column">
+                    <form action="./sendMail.php" form class="flex flex-direction-column">
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Name</label>
-                            <input type="text">
+                            <input name="fullname" required="required" type="text">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Phone</label>
-                            <input type="text">
+                            <input name="phoneNumber" type="tel">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <label for="" class="poppins">Email</label>
-                            <input type="text">
+                            <input name="email" required="required" type="email">
+                        </div>
+                        <div class="form-field flex flex-direction-column gap">
+                            <label for="" class="poppins">cpmment</label>
+                            <input name="comment" required="required" type="text">
                         </div>
                         <div class="form-field flex flex-direction-column gap">
                             <input type="submit" class="bg-color-secondary-lite white" value="Get a callback">
